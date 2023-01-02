@@ -515,35 +515,33 @@ video {
 
 .container {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 48rem) {
   .container {
-    max-width: 640px;
+    max-width: 48rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 64rem) {
   .container {
-    max-width: 768px;
+    max-width: 64rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 70.25rem) {
   .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
+    max-width: 70.25rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
   }
 }
 
@@ -552,12 +550,40 @@ video {
   margin-right: auto;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.h-0\.5 {
+  height: 0.125rem;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .items-center {
@@ -574,6 +600,11 @@ video {
 
 .rounded-bl-full {
   border-bottom-left-radius: 9999px;
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -615,7 +646,50 @@ video {
   padding-bottom: 1rem;
 }
 
-.text-gray-100 {
+.font-Caramel {
+  font-family: Caramel;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-gray-200 {
   --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
