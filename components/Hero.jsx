@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 
 const Hero = () => {
@@ -32,9 +32,6 @@ const Hero = () => {
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <BsPersonLinesFill />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaInstagram />
             </div>
           </div>
         </div>

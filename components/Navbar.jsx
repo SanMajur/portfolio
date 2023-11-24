@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 
 const Navbar = () => {
@@ -102,9 +102,6 @@ const Navbar = () => {
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <BsPersonLinesFill />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaInstagram />
                 </div>
               </div>
             </div>
