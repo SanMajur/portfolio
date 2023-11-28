@@ -16,7 +16,27 @@ const Projects = () => {
         </p>
         <h2 className="py-4 capitalize">what i've built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#434e63]">
+          <ProjectItems
+            title="Netflix"
+            backgroundImg={netflixImg}
+            projectUrl="/project"
+          />
+          <ProjectItems
+            title="crypto app"
+            backgroundImg={cryptoImg}
+            projectUrl="/project"
+          />
+          <ProjectItems
+            title="property finder"
+            backgroundImg={propertyImg}
+            projectUrl="/project"
+          />
+          <ProjectItems
+            title="twitch"
+            backgroundImg={twitchImg}
+            projectUrl="/project"
+          />
+          {/* <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#434e63]">
             <Image
               className="rounded-xl group-hover:opacity-10"
               src={propertyImg}
@@ -90,7 +110,7 @@ const Projects = () => {
                 </p>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
