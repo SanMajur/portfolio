@@ -12,7 +12,7 @@ import Skill from "../components/Skill";
 
 const Skills = () => {
   return (
-    <div className="w-full h-full p-4">
+    <div id='skills' className="w-full h-full p-4">
       <div className="max-w-[1244px] mx-auto flex flex-col justify-center">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           skills

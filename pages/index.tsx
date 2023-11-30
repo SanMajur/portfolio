@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Skills from '../components/Skills'
@@ -15,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" type="image/x-icon" />
       </Head>
 
-      <Navbar />
+      
       <Hero />
       <About />
       <Skills />
