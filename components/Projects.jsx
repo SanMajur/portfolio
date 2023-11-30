@@ -22,17 +22,17 @@ const Projects = () => {
             projectUrl="/netflix"
           />
           <ProjectItems
-            title="crypto app"
+            title="Crypto app"
             backgroundImg={cryptoImg}
             projectUrl="/crypto"
           />
           <ProjectItems
-            title="property finder"
+            title="Property Finder"
             backgroundImg={propertyImg}
             projectUrl="/property"
           />
           <ProjectItems
-            title="twitch"
+            title="Twitch"
             backgroundImg={twitchImg}
             projectUrl="/twitch"
           />
