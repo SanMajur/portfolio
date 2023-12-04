@@ -61,6 +61,10 @@ const property = () => {
                 <RiRadioButtonFill className="pr-1" />
                 Html
               </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                openWeather API
+              </p>
             </div>
           </div>
         </div>
