@@ -5,6 +5,7 @@ import propertyImg from "../public/assets/property.jpg";
 import cryptoImg from "../public/assets/crypto.jpg";
 import netflixImg from "../public/assets/netflix.jpg";
 import twitchImg from "../public/assets/twitch.jpg";
+import weatherImg from "../public/assets/forecast.jpg"
 import ProjectItems from "../components/ProjectItems";
 
 const Projects = () => {
@@ -16,6 +17,11 @@ const Projects = () => {
         </p>
         <h2 className="py-4 capitalize">what i've built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+        <ProjectItems
+            title="Weather App"
+            backgroundImg={weatherImg}
+            projectUrl="/weatherApp"
+          />
           <ProjectItems
             title="Netflix"
             backgroundImg={netflixImg}
