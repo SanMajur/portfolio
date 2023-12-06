@@ -17,7 +17,7 @@ const Skills = () => {
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           skills
         </p>
-        <h2 className="py-4">what i can do</h2>
+        <h2 className="py-4 capitalize">what i can do</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <Skill skillImage={htmlImg} title="html" />
           <Skill skillImage={cssImg} title="css" />
