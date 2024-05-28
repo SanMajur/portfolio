@@ -26,7 +26,7 @@ const Contact = () => {
                 />
               </div>
               <div className="">
-                <h2 className="py-2">Name Here</h2>
+                <h2 className="py-2">Santino Majur</h2>
                 <p className="py-4">
                   I'm available for freelance or full-time position. Contact me
                   and let's talk
